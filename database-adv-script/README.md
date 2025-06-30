@@ -1,5 +1,5 @@
-Airbnb Clone Database Advanced Queries
-Overview
+## Airbnb Clone Database Advanced Queries
+# Overview
 The database-adv-script/ directory contains advanced SQL queries for the Airbnb Clone database, demonstrating the use of different types of joins (INNER JOIN, LEFT JOIN, FULL OUTER JOIN). These queries are designed for MySQL and align with the schema in database-script-0x01/schema.sql and sample data in database-script-0x02/seed.sql.
 Files
 
