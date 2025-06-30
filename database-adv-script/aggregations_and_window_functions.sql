@@ -9,7 +9,7 @@ SELECT
     u.email,
     COUNT(b.booking_id) AS booking_count
 FROM users u
-LEFT JOIN bookings b ON u.user_id = b.user_id
+INNER JOIN bookings b ON u.user_id = b.user_id
 GROUP BY u.user_id, u.first_name, u.email
 ORDER BY booking_count DESC, u.user_id;
 
